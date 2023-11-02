@@ -1,0 +1,138 @@
+{
+  "storeInfo": {
+    "title": "Zach's UniStore",
+    "author": "Zachary Rude",
+    "description": "My own UniStore of my various 3DS homebrew games and injects",
+    "url": "https://raw.githubusercontent.com/Zachary-Rude/Zachs-Unistore/main/Zachs-Unistore.unistore",
+    "file": "Zachs-Unistore.unistore",
+    "sheetURL": "https://raw.githubusercontent.com/Zachary-Rude/Zachs-Unistore/main/Zachs-Unistore.t3x",
+    "sheet": "Zachs-Unistore.t3x",
+    "version": 3,
+    "revision": 1
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "Snake for 3DS",
+        "author": "Zachary Rude",
+        "description": "A basic Snake clone for 3DS",
+        "category": ["game"],
+        "console": ["3DS"],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2023-10-11 at 16:32 (UTC)",
+        "license": "mit",
+        "version": "v1.3"
+      },
+      "snake.3dsx": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/Zachary-Rude/Snake-for-3DS/releases/download/v1.3/snake.3dsx",
+          "output": "%3DSX%/snake.3dsx"
+        }
+      ],
+      "snake.cia": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/Zachary-Rude/Snake-for-3DS/releases/download/v1.3/snake.cia",
+          "output": "sdmc:/snake.cia"
+        },
+        {
+          "type": "installCia",
+          "file": "/snake.cia"
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/snake.cia"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Sonic the Hedgehog",
+        "author": "SEGA (ported to 3DS by Zachary Rude)",
+        "description": "Run through 6 action-packed Zones, each with 3 exciting Acts, to try and defeat Dr. Robotnik!",
+        "category": ["game"],
+        "console": ["3DS"],
+        "icon_index": 1,
+        "sheet_index": 0,
+        "last-updated": "2023-11-01 at 14:03 (UTC)",
+        "license": "No License",
+        "version": "REV01"
+      },
+      "sonic1.cia": [
+        {
+          "type": "downloadFile",
+          "file": "https://raw.githubusercontent.com/Zachary-Rude/Zachs-Unistore/main/sonic1.cia",
+          "output": "sdmc:/sonic1.cia"
+        },
+        {
+          "type": "installCia",
+          "file": "/sonic1.cia",
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/sonic1.cia"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Sonic the Hedgehog 2",
+        "author": "Zachary Rude",
+        "description": "Port to 3DS of Sonic the Hedgehog 2",
+        "category": ["game"],
+        "console": ["3DS"],
+        "icon_index": 2,
+        "sheet_index": 0,
+        "last-updated": "2023-11-01 at 14:03 (UTC)",
+        "license": "No License",
+        "version": "v1.0"
+      },
+      "sonic2.cia": [
+        {
+          "type": "downloadFile",
+          "file": "https://raw.githubusercontent.com/Zachary-Rude/Zachs-Unistore/main/sonic2.cia",
+          "output": "sdmc:/sonic2.cia"
+        },
+        {
+          "type": "installCia",
+          "file": "/sonic2.cia"
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/sonic2.cia"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Sonic 3 & Knuckles",
+        "author": "Zachary Rude",
+        "description": "Port to 3DS of Sonic 3 and Knuckles",
+        "category": ["game"],
+        "console": ["3DS"],
+        "icon_index": 3,
+        "sheet_index": 0,
+        "last_updated": "2023-11-01 at 14:03 (UTC)",
+        "license": "No License",
+        "version": "v1.0"
+      },
+      "sonic3.cia": [
+        {
+          "type": "downloadFile",
+          "file": "https://raw.githubusercontent.com/Zachary-Rude/Zachs-Unistore/main/sonic3.cia",
+          "output": "sdmc:/sonic3.cia"
+        },
+        {
+          "type": "installCia",
+          "file": "/sonic3.cia"
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/sonic3.cia"
+        }
+      ]
+    }
+  ]
+}
