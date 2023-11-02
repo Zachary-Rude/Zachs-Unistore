@@ -21,7 +21,7 @@
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2023-10-11 at 16:32 (UTC)",
-        "license": "mit",
+        "license": "MIT",
         "version": "v1.3"
       },
       "snake.3dsx": [
@@ -57,7 +57,6 @@
         "icon_index": 1,
         "sheet_index": 0,
         "last-updated": "2023-11-01 at 14:03 (UTC)",
-        "license": "No License",
         "version": "REV01"
       },
       "sonic1.cia": [
@@ -68,7 +67,7 @@
         },
         {
           "type": "installCia",
-          "file": "/sonic1.cia",
+          "file": "/sonic1.cia"
         },
         {
           "type": "deleteFile",
@@ -86,7 +85,6 @@
         "icon_index": 2,
         "sheet_index": 0,
         "last-updated": "2023-11-01 at 14:03 (UTC)",
-        "license": "No License",
         "version": "v1.0"
       },
       "sonic2.cia": [
@@ -115,7 +113,6 @@
         "icon_index": 3,
         "sheet_index": 0,
         "last_updated": "2023-11-01 at 14:03 (UTC)",
-        "license": "No License",
         "version": "v1.0"
       },
       "sonic3.cia": [
